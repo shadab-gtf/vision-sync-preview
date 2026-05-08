@@ -1,0 +1,47 @@
+import {
+  Activity,
+  Boxes,
+  CheckCircle2,
+  Code2,
+  Cpu,
+  DatabaseZap,
+  Eye,
+  FileCode2,
+  Gauge,
+  GitCompareArrows,
+  Layers3,
+  LockKeyhole,
+  PackageCheck,
+  RefreshCcw,
+  RotateCcw,
+  ShieldCheck,
+  Sparkles,
+  Terminal,
+  TriangleAlert,
+  Workflow,
+  type LucideIcon
+} from "lucide-react";
+import type { IconName } from "@/types/content";
+
+export const iconMap: Record<IconName, LucideIcon> = {
+  Activity,
+  Boxes,
+  CheckCircle2,
+  Code2,
+  Cpu,
+  DatabaseZap,
+  Eye,
+  FileCode2,
+  Gauge,
+  GitCompareArrows,
+  Layers3,
+  LockKeyhole,
+  PackageCheck,
+  RefreshCcw,
+  RotateCcw,
+  ShieldCheck,
+  Sparkles,
+  Terminal,
+  TriangleAlert,
+  Workflow
+};
