@@ -65,10 +65,6 @@ export default function RootLayout({
 }: RootLayoutProps): React.ReactElement {
   return (
     <html lang="en" className="dark">
-      <head>
-        <meta name="google-site-verification" content="..." />
-        <meta name="msvalidate.01" content="..." />
-      </head>
       <body className={poppins.className}>
         <SiteHeader />
         {children}
